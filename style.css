@@ -43,3 +43,84 @@ header, footer {
 }
 
 /* ECRIVEZ VOTRE CODE CI-DESSOUS */
+
+
+body{
+  font-family: 'indie flower',sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  word-spacing: 3em; 
+}
+
+
+header{
+  font-style: indie flower;
+  text-align: center
+ 
+}
+ 
+ }
+ h1{
+  font-family:Patrick Hand, sans-serif;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 1px;
+  font-style: normal;
+}
+h2{
+  font-family:Patrick Hand, sans-serif;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 1px;
+  font-style: normal;
+}
+p,li{
+  font-size: 1.5em;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+section,h2+p{
+  text-indent: 100px;
+}
+a:link{
+  color: red;
+}
+a:hover{
+  color: red;
+  text-decoration: none;
+}
+a:focus{
+  color: yellow;
+  text-decoration: none;
+}
+a:visited{
+  color: blueviolet;
+}
+
+a{
+  outline: none;
+}
+a[href*="http"]{
+  padding-right: 20px;
+  background: url(external-link-52.png)no-repeat 100%;
+  background-size: 10px 10px;
+}
+ul+li{
+  list-style-type: circle;
+}
+nav li{
+  list-style-type: none;
+}
+nav,li{
+  margin-bottom: 1em;
+}
+nav li a{
+  font-size: 1em;
+  text-decoration: none;
+  border: 2px solid red;
+  display: inline-block;
+  line-height: 2.5em;
+  text-align: center;
+  width: 100%;
+}
